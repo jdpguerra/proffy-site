@@ -1,0 +1,27 @@
+{
+  "name": "proffy-site",
+  "version": "1.0.0",
+  "description": "Semana NLW",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdpguerra/proffy-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdpguerra/proffy-site/issues"
+  },
+  "homepage": "https://github.com/jdpguerra/proffy-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
