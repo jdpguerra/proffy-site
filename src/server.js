@@ -22,8 +22,10 @@ const server = express()
  })
 
 server
+//configurar arquivos staticos
 .use(express.urlencoded({ extended: true }))
 .use(express.static("public"))
+//rota de aplicaçao
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
